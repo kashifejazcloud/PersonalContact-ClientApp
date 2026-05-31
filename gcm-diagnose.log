@@ -1,0 +1,207 @@
+﻿Diagnose log at 2026-05-30T01:55:14Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.7.3+5fa7116896c82164996a609accd1c5ad90fe730a
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 26100)
+Reading environment variables... OK
+ Variables:
+SESSIONNAME=Console
+ProgramFiles(x86)=C:\Program Files (x86)
+MSYSTEM=MINGW64
+ProgramW6432=C:\Program Files
+windir=C:\WINDOWS
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 186 Stepping 3, GenuineIntel
+OnlineServices=Online Services
+PROCESSOR_ARCHITECTURE=AMD64
+VSCODE_GIT_ASKPASS_MAIN=c:\Users\ejazk\AppData\Roaming\Code\User\globalStorage\vscode.git\askpass\493597c785d4c5cb\askpass-main.js
+Path=C:/Program Files/Git/mingw64/libexec/git-core;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\ejazk\bin;c:\Users\ejazk\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\ejazk\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files (x86)\Gapotchenko\Eazfuscator.NET;C:\Program Files\SqlCmd\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\PIPC (x86)\bin\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Subversion\bin;C:\Program Files\TortoiseSVN\bin;D:\PIPC\bin\;C:\Program Files\SafeNet\Authentication\SAC\x64;C:\Program Files\SafeNet\Authentication\SAC\x32;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Apache Maven\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Amazon\SessionManagerPlugin\bin\;C:\Program Files\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\Users\ejazk\AppData\Local\Microsoft\WindowsApps;C:\Users\ejazk\.dotnet\tools;C:\Users\ejazk\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ejazk\AppData\Roaming\npm\node_modules\@angular\cli\bin;C:\Users\ejazk\AppData\Local\Programs\Azure Data Studio\bin;C:\Users\ejazk\AppData\Local\GitHubDesktop\bin;C:\Users\ejazk\AppData\Roaming\npm;C:\Users\ejazk\AppData\Local\Programs\Fiddler;C:\Users\ejazk\.lmstudio\bin;C:\Users\ejazk\.dotnet\tools
+TERM_PROGRAM_VERSION=1.122.1
+COLORTERM=truecolor
+USERPROFILE=C:\Users\ejazk
+VSCODE_GIT_IPC_HANDLE=\\.\pipe\vscode-git-6b703a3340-sock
+PROCESSOR_REVISION=ba03
+TEMP=C:\Users\ejazk\AppData\Local\Temp
+EAZFUSCATOR_NET_HOME=C:\Program Files (x86)\Gapotchenko\Eazfuscator.NET
+LOGONSERVER=\\AKL-DC-P02
+TERM=xterm-256color
+USERNAME=ejazk
+SystemRoot=C:\WINDOWS
+CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_45772_ZLEVCGBXNGAGYOAG
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+PLINK_PROTOCOL=ssh
+USERDNSDOMAIN=DIMENSION.SOFTWARE.CO.NZ
+OneDrive=C:\Users\ejazk\OneDrive
+USERDOMAIN_ROAMINGPROFILE=DIMENSIONSOFT
+CommonProgramFiles=C:\Program Files\Common Files
+ZES_ENABLE_SYSMAN=1
+VSCODE_PYTHON_AUTOACTIVATE_GUARD=1
+AS_DB_CONNECTION=Server=akl-sql-p01;Database=DIMENSION_AS_DEV;integrated security=True;MultipleActiveResultSets=True;App=AlarmSentinelWebsite
+ProgramData=C:\ProgramData
+platformcode=AN
+GIT_ASKPASS=c:\Users\ejazk\AppData\Roaming\Code\User\globalStorage\vscode.git\askpass\493597c785d4c5cb\askpass.sh
+HOMEPATH=\Users\ejazk
+IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnETYqO//IEi5K1qeDmvqGgQAAAACAAAAAAAQZgAAAAEAACAAAAC2P4jyQEleA8yWNrVxKYfjJbHVCy75V6RvUOJxM6hlMAAAAAAOgAAAAAIAACAAAAC+Flt3p8I2ZZPy1NL6dINxXq57LQHFuwSGAUGEdENweGAAAAALLRrAOUg7XDPZSwa/7vECTsw1yejpc/pKvykXrLz9+f7U9/CIQObIOBtr+rQiXVTT+TmRPfB5OmqL7cHBREWKSA7/icjuX6mlvB4r4hCyTyb1tB5ncquoUR0iwQueUOJAAAAA0bfoPCvMHinCxwokYFmRHSfv0wNDCyyZ8GTPbyPb0yfPqCWapq85crV/MqfVGojxYGqKvm0Cgq6MArhwTdi76w==
+COMPUTERNAME=KASHIFE-PC
+VSCODE_INJECTION=1
+ALLUSERSPROFILE=C:\ProgramData
+CommonProgramW6432=C:\Program Files\Common Files
+COPILOT_DEBUG_NONCE=387457949ed14aaf24b1c79c43cb7e71
+APR_ICONV_PATH=C:\Program Files (x86)\Subversion\iconv
+__PSLockDownPolicy=0
+MAVEN_HOME=C:\Program Files\Apache Maven\apache-maven-3.9.9-bin\apache-maven-3.9.9
+TMP=C:\Users\ejazk\AppData\Local\Temp
+DriverData=C:\Windows\System32\Drivers\DriverData
+HOMEDRIVE=C:
+PIHOME=D:\PIPC (x86)
+GIT_TRACE2_PARENT_SID=3821935a-0f94-49dd-9482-8a58f9f86421
+SystemDrive=C:
+NUMBER_OF_PROCESSORS=12
+OS=Windows_NT
+ProgramFiles=C:\Program Files
+ComSpec=C:\WINDOWS\system32\cmd.exe
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+HOME=C:\Users\ejazk
+LANG=en_US.UTF-8
+PSModulePath=C:\Users\ejazk\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;D:\PIPC\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\PowerShell\Modules\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\PowerShell\Modules\
+TMPDIR=C:\Users\ejazk\AppData\Local\Temp
+APPDATA=C:\Users\ejazk\AppData\Roaming
+USERDOMAIN=DIMENSIONSOFT
+PROCESSOR_LEVEL=6
+LOCALAPPDATA=C:\Users\ejazk\AppData\Local
+VSCODE_GIT_ASKPASS_NODE=C:\Users\ejazk\AppData\Local\Programs\Microsoft VS Code\Code.exe
+PIHOME64=D:\PIPC\
+_NT_SYMBOL_PATH=;C:\WINDOWS\symbols;C:\WINDOWS\symbols\dll
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+EFC_9924_1592913036=1
+RegionCode=APJ
+PUBLIC=C:\Users\Public
+TERM_PROGRAM=vscode
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\ejazk\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\ejazk\AppData\Local\Temp\bdf641f9969a8606b706e682'... OK
+Reading from temporary file 'C:\Users\ejazk\AppData\Local\Temp\bdf641f9969a8606b706e682'... OK
+Deleting temporary file 'C:\Users\ejazk\AppData\Local\Temp\bdf641f9969a8606b706e682'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\ejazk
+UserDataDirectoryPath: C:\Users\ejazk\.gcm
+GetCurrentDirectory(): D:\Temp\PersonalContacts\PersonalContact-ClientApp
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:52277/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.54.0.windows.1'
+Locating current repository...Git repository at 'D:/Temp/PersonalContacts/PersonalContact-ClientApp/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=openssl
+file:C:/Program Files/Git/etc/gitconfig	http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig	core.longpaths=true
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/ejazk/.gitconfig	user.name=kejazahmed
+file:C:/Users/ejazk/.gitconfig	user.email=kashifejaznz@gmail.com
+file:C:/Users/ejazk/.gitconfig	safe.directory=D:\Projects\DimensionSoftware\LatestFramework\DimensionFramework
+file:C:/Users/ejazk/.gitconfig	safe.directory=D:\Projects\DimensionSoftware\LatestFramework\DimensionFramework
+file:C:/Users/ejazk/.gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Users/ejazk/.gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Users/ejazk/.gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Users/ejazk/.gitconfig	filter.lfs.required=true
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/kashifejazcloud/PersonalContact-ClientApp.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+file:.git/config	user.name=kashifejazcloud
+file:.git/config	user.email=kashifejazcloud@hotmail.com
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\ejazk\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\ejazk\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+

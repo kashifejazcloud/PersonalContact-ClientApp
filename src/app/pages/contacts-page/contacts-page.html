@@ -1,0 +1,97 @@
+<section class="contacts-page">
+  <header class="page-header">
+    <div>
+      <p class="eyebrow">Personal Contacts</p>
+      <h1>Manage your contacts</h1>
+      <p class="subtitle">Add, update, and delete contact records from your ASP.NET Core API.</p>
+    </div>
+  </header>
+
+  <div class="layout">
+    <section class="panel form-panel">
+      <h2>{{ editingContactId() === null ? 'Add Contact' : 'Edit Contact' }}</h2>
+
+      <form [formGroup]="contactForm" (ngSubmit)="saveContact()" class="contact-form">
+        <label>
+          <span>First name</span>
+          <input type="text" formControlName="firstName" />
+          <small *ngIf="isFieldInvalid('firstName')">First name is required.</small>
+        </label>
+
+        <label>
+          <span>Last name</span>
+          <input type="text" formControlName="lastName" />
+          @if (isFieldInvalid('lastName')) {
+            <small>Last name is required.</small>
+          }
+        </label>
+
+        <label>
+          <span>Email</span>
+          <input type="email" formControlName="email" />
+          @if (isFieldInvalid('email')) {
+            <small>Enter a valid email address.</small>
+          }
+        </label>
+
+        <label>
+          <span>Phone number</span>
+          <input type="text" formControlName="phoneNumber" />
+          @if (isFieldInvalid('phoneNumber')) {
+            <small>Phone number is required.</small>
+          }
+        </label>
+
+        <label class="full-width">
+          <span>Address</span>
+          <textarea rows="3" formControlName="address"></textarea>
+        </label>
+
+        <div class="actions">
+          <button type="submit" [disabled]="isSaving()">
+            {{ editingContactId() === null ? 'Save Contact' : 'Update Contact' }}
+          </button>
+
+          @if (editingContactId() !== null) {
+            <button type="button" class="secondary" (click)="cancelEdit()">Cancel</button>
+          }
+        </div>
+      </form>
+    </section>
+
+    <section class="panel list-panel">
+      <div class="list-header">
+        <h2>Contacts</h2>
+        <button type="button" class="secondary" (click)="loadContacts()">Refresh</button>
+      </div>
+
+      @if (errorMessage()) {
+        <p class="message error">{{ errorMessage() }}</p>
+      }
+
+      @if (isLoading()) {
+        <p class="message">Loading contacts...</p>
+      } @else if (contacts().length === 0) {
+        <p class="message">No contacts found.</p>
+      } @else {
+        <div class="contact-list">
+          @for (contact of contacts(); track contact.id) {
+            <article class="contact-card">
+              <div class="contact-card__body">
+                <h3>{{ contact.firstName }} {{ contact.lastName }}</h3>
+                <p>{{ contact.email }}</p>
+                <p>{{ contact.phoneNumber }}</p>
+                <p>{{ contact.address || 'No address' }}</p>
+              </div>
+
+              <div class="contact-card__actions">
+                <button type="button" class="secondary" (click)="editContact(contact)">Edit</button>
+                <button type="button" class="danger" (click)="deleteContact(contact)">Delete</button>
+              </div>
+            </article>
+          }
+        </div>
+      }
+    </section>
+  </div>
+</section>
